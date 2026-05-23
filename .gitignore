@@ -1,13 +1,11 @@
-﻿*/__pycache__
-frontend/node_modules
-*/routes/__pycache__
-*/__pycache__
-worker/runners/__pycache__
+# Terraform state and secrets
+terraform/terraform.tfstate
+terraform/terraform.tfstate*.backup
+terraform/tfplan
+terraform/terraform.tfvars
+terraform/.terraform/
+terraform/.terraform.lock.hcl
 
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.backup
-*.tfvars
-tfplan
-terraform.tfstate.*.backup
+# Local env files
+.env
+*.env.local
