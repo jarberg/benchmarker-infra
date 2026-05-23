@@ -8,7 +8,6 @@ resources:
   - secret.yaml
   - pvc.yaml
   - deployment.yaml
-  - worker-deployment.yaml
   - service.yaml
   - ingress.yaml
   - hpa.yaml
