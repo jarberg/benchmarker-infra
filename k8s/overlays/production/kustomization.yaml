@@ -7,11 +7,9 @@ resources:
   - ../../base
 
 images:
-  - name: ghcr.io/jarberg/benchmarker-server
-    newName: registry:5000/benchmarker-server
+  - name: ghcr.io/jarberg/benchmarker
     newTag: latest
   - name: ghcr.io/jarberg/benchmarker-worker
-    newName: registry:5000/benchmarker-worker
     newTag: latest
 
 patches:
