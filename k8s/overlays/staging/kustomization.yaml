@@ -18,6 +18,14 @@ patches:
       - op: replace
         path: /spec/replicas
         value: 1
+  - target: { kind: HorizontalPodAutoscaler, name: benchmarker-server }
+    patch: |-
+      - op: replace
+        path: /spec/minReplicas
+        value: 1
+      - op: replace
+        path: /spec/maxReplicas
+        value: 1
   - target: { kind: Ingress, name: benchmarker }
     patch: |-
       - op: replace
