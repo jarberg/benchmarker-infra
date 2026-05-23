@@ -6,7 +6,7 @@ metadata:
 spec:
   description: "Benchmarker apps and infrastructure"
   sourceRepos:
-    - https://github.com/jarberg/Benchmarker.git 
+    - https://github.com/jarberg/benchmarker-infra.git
   destinations:
     - namespace: benchmarker
       server: https://kubernetes.default.svc

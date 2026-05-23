@@ -4,9 +4,9 @@
 # Usage: bash scripts/cluster-up.sh
 set -euo pipefail
 
-CLUSTER_NAME=benchmarker
-REGISTRY_CONTAINER=benchmarker-registry-1
-POSTGRES_CONTAINER=benchmarker-postgres-1
+CLUSTER_NAME=benchmarker-infra
+REGISTRY_CONTAINER=benchmarker-infra-registry-1
+POSTGRES_CONTAINER=benchmarker-infra-postgres-1
 
 echo ""
 echo "╔══════════════════════════════════════════╗"
